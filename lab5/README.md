@@ -154,7 +154,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. AWS マネジメントコンソール上部の検索バーで、`Amazon Bedrock` と検索してクリックします。
 1. 左側のナビゲーションペインの [**構築**] セクションで、[**エージェント**] をクリックします。
 1. **shopping-assistant** エージェントのリンクをクリックします。
-1. <span style="ssb_orange_oval">エージェントビルダーで編集</span> をクリックします。
+1. <span style="ssb_orange_oval">[**エージェントビルダーで編集**]</span> をクリックします。
 1. [**アクショングループ**] セクションまでスクロールして、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">追加</span> をクリックします。
 1. [**アクショングループ名を入力**] に `shopping-assistant-ag` と入力します。
 1. [**説明 - オプション**] に `基本的な商品クエリ機能を実装するアクショングループ` と入力します。
