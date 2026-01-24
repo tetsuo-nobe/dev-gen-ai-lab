@@ -91,7 +91,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. 左側のナビゲーションペインの [**構築**] セクションで、[**ナレッジベース**] をクリックします。
 1. [**ナレッジベース**] のリストに、**shopping-kb** があります。**shopping-kb** の横にあるラジオボタンをクリックします。
-1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">ナレッジベースをテスト</span> をクリックします。
+1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**ナレッジベースをテスト**]</span> をクリックします。
 1. 左側の [**設定**] セクションで、[**取得と応答生成**] を展開します。
 1. [**取得のみ: データソース**] をクリックします。
 1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `こんにちは。貴社の商品に興味があります。貴社が販売している商品の製造元を教えてください。` というテキストを入力します。
