@@ -161,7 +161,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. OpenAPI 形式を使用する代わりに、[**関数の詳細で定義**] を使用して関数パラメータを定義します。
 1. [**アクショングループの呼び出し**] で [**既存の Lambda 関数を選択してください**] を選択します。
 1. [**Lambda 関数を選択**] で `ShoppingAssistantFunction` を選択します。
-1. [**Action group function 1**] セクションの右上にある JSON エディタをクリックします。
+1. [**Action group function 1**] セクションの右上にある [**JSON エディタ**] をクリックします。
 1. テキストボックスに次のコードを入力します。
 
    ```json
