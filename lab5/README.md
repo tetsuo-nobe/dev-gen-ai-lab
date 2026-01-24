@@ -263,12 +263,12 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. 左側のナビゲーションペインの [**構築**] セクションで、[**エージェント**] をクリックします。
 1. **shopping-assistant** エージェントのリンクをクリックします。
-1. <span style="ssb_orange_oval">エージェントビルダーで編集</span> をクリックします。
-1. [**ガードレールの詳細**] セクションまでスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックします。
+1. <span style="ssb_orange_oval">[**エージェントビルダーで編集**]</span> をクリックします。
+1. [**ガードレールの詳細**] セクションまでスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**編集**]</span> をクリックします。
 1. [**ガードレールを選択**] で **shopping-assistant-guardrail** を選択します。
 1. [**ガードレールバージョン**] で **1** を選択します。
-1. <span style="ssb_orange_oval">保存して終了</span> をクリックします。
-1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. <span style="ssb_orange_oval">[**保存して終了**]</span> をクリックします。
+1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 <i aria-hidden="true" class="far fa-thumbs-up" style="color:#008296"></i> **タスク完了:** 事前構築済みのガードレールをエージェントに適用できました。
 
@@ -284,7 +284,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. [**エージェントの詳細**] セクションの下部にある <span style="font-weight: bold"> **その他の設定**</span> を展開します。
 1. [**アイドルセッションタイムアウト**] を `120` **秒**と入力します。
-1. 一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. 一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 ### タスク 5.2: エージェントの長期メモリを設定する
 
@@ -306,15 +306,15 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 エージェントの設定がすべて完了したので、次はエージェントをテストします。まずは、エージェントを**準備**する必要があります。その後、いくつかのテストを実行します。
 
-1. 一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">準備</span> をクリックします。
+1. 一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**準備**]</span> をクリックします。
 
-1. ボタンがグレーになっている場合は、先に <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックしてから <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">準備</span> をクリックします。
+1. ボタンがグレーになっている場合は、先に <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックしてから <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**準備**]</span> をクリックします。
 
-1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">テスト</span> をクリックします。
+1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**テスト**]</span> をクリックします。
 
 1. 画面右側の [**テストエージェント**] セクションで、「**ここにメッセージを入力**」と表示されたテキストボックスに `こんにちは。貴社の商品に興味があります。貴社が販売している商品の製造元を教えてください。` というプロンプトを入力します。
 
-1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">実行</span> をクリックします。
+1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**実行**]</span> をクリックします。
 
 1. LLM から指示された後にエージェントがナレッジベースと通信し、エージェントの応答メッセージが表示されます。これを検証するには、応答の下部にある **トレースを表示** をクリックします。
 1. 画面右側の [**トレース**] セクションで [**前処理トレース**] タブをクリックし、<span style="font-weight: bold">**トレース ステップ 1**</span> を展開します。
@@ -336,13 +336,13 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. 左側のナビゲーションペインの [**構築**] セクションで、[**エージェント**] をクリックします。
 1. **shopping-assistant** エージェントのリンクをクリックします。
-1. [**エイリアス**] セクションまでスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">作成</span> をクリックします。
+1. [**エイリアス**] セクションまでスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**作成**]</span> をクリックします。
 1. [**エイリアス名**] に `prod` と入力します。
 
 <i aria-hidden="true" class="fas fa-exclamation-circle" style="color:#7C5AED"></i> **警告:** エージェント名は必ず **prod** にします。そうしないと、後のタスクで JupyterLab Notebook を実行する際に問題が発生します。誤った名前で作成した場合は、上記の手順をもう一度実行して新しいエイリアスを作成できます。
 
 1. その他の設定は変更せず、[**新しいバージョンを作成し、このエイリアスに関連付けます。**] を選択した状態にしておきます。
-1. <span style="ssb_orange_oval">エイリアスを作成</span> をクリックします。
+1. <span style="ssb_orange_oval">[**エイリアスを作成**]</span> をクリックします。
 
 <i aria-hidden="true" class="fas fa-sticky-note" style="color:#563377"></i> **注意:** タスク 6.1 のテストを再実行することもできますが、テストを実行してから設定を何も変更していないため、動作は既に確認したとおりです。
 
