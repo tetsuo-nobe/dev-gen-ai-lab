@@ -95,7 +95,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. 左側の [**設定**] セクションで、[**取得と応答生成**] を展開します。
 1. [**取得のみ: データソース**] をクリックします。
 1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `Hello, I am interested in your products. Who manufactures the products you sell?` というテキストを入力します。
-1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコン ::icon {{name=send}}:: をクリックします。
+1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコンをクリックします。
 1. ナレッジベースのテキストチャンクのリストが返されるのが確認できます。
 1. ナレッジベースの回答の下部にある [**詳細**] をクリックすると、各チャンクの詳細が表示されます。
 
@@ -107,7 +107,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. [**モデル**] で [**Claude 3 Haiku**] を選択します。
 1. <span style="ssb_orange_oval">適用</span> をクリックします。
 1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `Hello, I am interested in your products. Who manufactures the products you sell?` というテキストを入力します。
-1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコン ::icon {{name=send}}:: をクリックします。
+1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコンをクリックします。
 1. 今回は、**Claude 3 Haiku** LLM を使用して、ナレッジベースから返されたチャンクを基に、応答が再構成されたことがわかります。
 
 ### タスク 2.2: ナレッジベースをエージェントにアタッチする
@@ -161,7 +161,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. OpenAPI 形式を使用する代わりに、[**関数の詳細で定義**] を使用して関数パラメータを定義します。
 1. [**アクショングループの呼び出し**] で [**既存の Lambda 関数を選択してください**] を選択します。
 1. [**Lambda 関数を選択**] で `ShoppingAssistantFunction` を選択します。
-1. [**Action group function 1**] セクションの右上にある {{v-button text= "JSON エディタ"}} をクリックします。
+1. [**Action group function 1**] セクションの右上にある JSON エディタをクリックします。
 1. テキストボックスに次のコードを入力します。
 
    ```json
@@ -182,7 +182,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
    * `name`は、Lambda 関数を呼び出す際の `function` プロパティに使用され、コード内で 2 つの関数のどちらを呼び出すかを判断します。
    * `productId` パラメータは、関数の内部データベースでどの製品 ID を検索するかを決定するために使用されます。このパラメータは必須であり、型は `String` です。
 1. [**Action group function 1**] の定義の下にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">アクショングループ関数を追加</span> をクリックして 2 番目の関数を追加します。
-1. [**Action group function 2**] セクションの右上にある {{v-button text= "JSON エディタ"}} をクリックします。
+1. [**Action group function 2**] セクションの右上にある JSON エディタをクリックします。
 1. テキストボックスに次のコードを入力します。
 
    ```json
@@ -237,8 +237,8 @@ You are an AI shopping assistant, and you respond to product related questions. 
       1. [**Lawn Maintenance Advice**] の横にあるチェックボックスをします。
       1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックします。
       1. [**サンプルフレーズの追加 - オプション**] セクションには、ガードレールがどのようなトピックを拒否すべきかを知るのに役立つ、3 つのサンプルフレーズがあります。
-      1. {{v-button text="キャンセル" type="cs-link"}} をクリックします。
-      1. {{v-button text="終了" type="cs-link"}} をクリックします。
+      1. **キャンセル** をクリックします。
+      1. **終了** をクリックします。
    1. **ワードフィルター**: 冒涜的な表現やカスタム単語とフレーズが含まれています。ワードフィルターは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
    1. **機密情報フィルター**: PII タイプと正規表現パターンが含まれており、該当するタブをクリックすると確認できます。PII タイプと正規表現パターンは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
    1. **コンテキストグラウンディング**:コンテキストグラウンディングチェックは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
@@ -254,8 +254,8 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. [**プロンプト**] テキストボックスに `Can I use a string trimmer to control weeds?` というテキストを入力します。覚えているかと思いますが、このプロンプトは拒否トピックで指定した**サンプルフレーズ**には含まれていません。つまり、考えられるすべての拒否ケースをサンプルとして登録しておく必要はありません。
 1. <span style="ssb_orange_oval"><i class="fas fa-caret-right"></i> 実行</span> をクリックします。
 1. [**最終応答**] に、先ほど確認したブロックされたメッセージが表示されます。
-1. <span style="color:#855900">::icon {{name=status-warning}}:: 介入 (1 インスタンス)</span> の横にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">トレースを表示</span> をクリックします。
-1. [**拒否トピック**] で、**Lawn Maintenance Advice** が<span style="color:#855900">::icon {{name=status-warning}}:: ブロック済み</span> かつ **Detected: TRUE** になっていることが確認できます。
+1. <span style="color:#855900">**介入 (1 インスタンス)**</span> の横にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">トレースを表示</span> をクリックします。
+1. [**拒否トピック**] で、**Lawn Maintenance Advice** が<span style="color:#855900"> **ブロック済み**</span> かつ **Detected: TRUE** になっていることが確認できます。
 
 ### タスク 4.3: エージェントのガードレールを設定する
 
@@ -282,7 +282,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 
 このタスクでは、***アイドルセッションタイムアウト***を設定し、120 秒に下げます。デフォルトでは 600 秒です。つまり、同じ**セッション ID**を使用している場合、エージェントは過去 10 分間の会話を短期メモリとして保持するため、コード内でメモリを管理する必要はありません。ただし、このラボの目的にとって 10 分は長すぎるため、セッションを短時間でタイムアウトする必要があります。そうすることで、セッション内容を要約して次のセクションで設定する長期メモリにコミットできるようにします。
 
-1. [**エージェントの詳細**] セクションの下部にある <span style="font-weight: bold">::icon {{name=caret-right-filled}}:: その他の設定</span> を展開します。
+1. [**エージェントの詳細**] セクションの下部にある <span style="font-weight: bold"> **その他の設定**</span> を展開します。
 1. [**アイドルセッションタイムアウト**] を `120` **秒**と入力します。
 1. 一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
 
@@ -316,14 +316,14 @@ You are an AI shopping assistant, and you respond to product related questions. 
 
 1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">実行</span> をクリックします。
 
-1. LLM から指示された後にエージェントがナレッジベースと通信し、エージェントの応答メッセージが表示されます。これを検証するには、応答の下部にある {{v-button text="トレースを表示" type="cs-link" iconName="angle-right" iconAlign="right"}} をクリックします。
-1. 画面右側の [**トレース**] セクションで [**前処理トレース**] タブをクリックし、<span style="font-weight: bold">::icon {{name=caret-right-filled}}:: トレース ステップ 1</span> を展開します。
+1. LLM から指示された後にエージェントがナレッジベースと通信し、エージェントの応答メッセージが表示されます。これを検証するには、応答の下部にある **トレースを表示** をクリックします。
+1. 画面右側の [**トレース**] セクションで [**前処理トレース**] タブをクリックし、<span style="font-weight: bold">**トレース ステップ 1**</span> を展開します。
 1. ガードレールが適用されているものの、何もアクションが実行されなかったことがわかります (`action: NONE`)。
 1. [**オーケストレーションとナレッジベース**] タブには、次の 2 つのトレースがあります。
-   * <span style="font-weight: bold">::icon {{name=caret-right-filled}}:: Trace step 2</span>: これを展開すると、`modelInvocationInput` でエージェントがまず LLM と通信していることがわかります。次に、`modelInvocationOutput` で LLM にナレッジベースの使用を求め、その定義は `rationale` で明確に示されています。その後、`invocationInput` でエージェントがナレッジベースを呼び出します。このとき `text` は、送信した元のプロンプトとは異なることに注意してください。`observation` にナレッジベースの応答が記録されます。
-   * <span style="font-weight: bold">::icon {{name=caret-right-filled}}:: Trace step 3</span>: これを展開すると、`modelInvocationInput` でエージェントが LLM を呼び出し、先程のトレースで得られたナレッジベースの `content` を渡していることがわかります。次に、`modelInvocationOutput` で LLM から回答が得られます。その内容は `observation` で簡単に確認できます。
+   * <span style="font-weight: bold">**Trace step 2**</span>: これを展開すると、`modelInvocationInput` でエージェントがまず LLM と通信していることがわかります。次に、`modelInvocationOutput` で LLM にナレッジベースの使用を求め、その定義は `rationale` で明確に示されています。その後、`invocationInput` でエージェントがナレッジベースを呼び出します。このとき `text` は、送信した元のプロンプトとは異なることに注意してください。`observation` にナレッジベースの応答が記録されます。
+   * <span style="font-weight: bold">**Trace step 3**</span>: これを展開すると、`modelInvocationInput` でエージェントが LLM を呼び出し、先程のトレースで得られたナレッジベースの `content` を渡していることがわかります。次に、`modelInvocationOutput` で LLM から回答が得られます。その内容は `observation` で簡単に確認できます。
 
-1. [**後処理トレース**] タブで <span style="font-weight: bold">::icon {{name=caret-right-filled}}:: トレース ステップ 4</span> を展開します。
+1. [**後処理トレース**] タブで <span style="font-weight: bold">**トレース ステップ 4**</span> を展開します。
 1. ガードレールが適用されたことが確認できます。
 1. 上記と同じ手順を、次のような追加のプロンプトで繰り返し実行すると、アクショングループとガードレールを呼び出すことができます。
    * `How much do they cost?` は、**PriceLookup** 関数をトリガーします。
@@ -372,7 +372,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 
 1. 左側のメニューから **Task_ja_jp.ipynb** をダブルクリックしてノートブックを開きます。
 
-1. **Task_ja_jp.ipynb** ノートブックを注意深く進め、各コードセルを実行し、その出力を表示します。セルを実行するには、セル内をクリックして **Shift+Enter** を押すか、ページ上部にある ::icon {{name=play}}:: 実行ボタンをクリックします。
+1. **Task_ja_jp.ipynb** ノートブックを注意深く進め、各コードセルを実行し、その出力を表示します。セルを実行するには、セル内をクリックして **Shift+Enter** を押すか、ページ上部にある **実行ボタン** をクリックします。
 
 <i aria-hidden="true" class="fas fa-sticky-note" style="color:#563377"></i> **注意:** ノートブックの実行が終了したら、ここに戻ってラボを終了してください。
 
