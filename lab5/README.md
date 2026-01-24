@@ -121,7 +121,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. [**ナレッジベースを選択**] で**shopping-kb** を選択します。
 1. [**エージェント向けのナレッジベースの指示**] に `顧客が商品の説明、商品の評価、または入手可能な商品について質問したときに、ナレッジベースにアクセスします。` と入力します。
 1. <span style="ssb_orange_oval">[**追加**]</span> をクリックします。
-1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 <i aria-hidden="true" class="far fa-thumbs-up" style="color:#008296"></i> **タスク完了:** ナレッジベースを確認し、エージェントにアタッチできました。
 
