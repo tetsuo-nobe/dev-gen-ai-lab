@@ -181,8 +181,8 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
    * `name`は、Lambda 関数を呼び出す際の `function` プロパティに使用され、コード内で 2 つの関数のどちらを呼び出すかを判断します。
    * `productId` パラメータは、関数の内部データベースでどの製品 ID を検索するかを決定するために使用されます。このパラメータは必須であり、型は `String` です。
-1. [**Action group function 1**] の定義の下にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">アクショングループ関数を追加</span> をクリックして 2 番目の関数を追加します。
-1. [**Action group function 2**] セクションの右上にある JSON エディタをクリックします。
+1. [**Action group function 1**] の定義の下にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**アクショングループ関数を追加**]</span> をクリックして 2 番目の関数を追加します。
+1. [**Action group function 2**] セクションの右上にある [**JSON エディタ**] をクリックします。
 1. テキストボックスに次のコードを入力します。
 
    ```json
