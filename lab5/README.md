@@ -292,7 +292,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. [**メモリ**] セクションまでスクロールして [**有効**] をクリックします。
 1. 残りの設定は変更しません。
-1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 <i aria-hidden="true" class="far fa-thumbs-up" style="color:#008296"></i> **タスク完了:** エージェントの短期メモリと長期メモリを設定できました。
 
