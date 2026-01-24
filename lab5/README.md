@@ -252,7 +252,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. [**モデル**] で [**Claude 3 Haiku**] を選択します。
 1. <span style="ssb_orange_oval">[**適用**]</span> をクリックします。
 1. [**プロンプト**] テキストボックスに `Can I use a string trimmer to control weeds?` というテキストを入力します。覚えているかと思いますが、このプロンプトは拒否トピックで指定した**サンプルフレーズ**には含まれていません。つまり、考えられるすべての拒否ケースをサンプルとして登録しておく必要はありません。
-1. <span style="ssb_orange_oval"><i class="fas fa-caret-right"></i> 実行</span> をクリックします。
+1. <span style="ssb_orange_oval"><i class="fas fa-caret-right"></i> [**実行**]</span> をクリックします。
 1. [**最終応答**] に、先ほど確認したブロックされたメッセージが表示されます。
 1. <span style="color:#855900">**介入 (1 インスタンス)**</span> の横にある <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**トレースを表示**]</span> をクリックします。
 1. [**拒否トピック**] で、**Lawn Maintenance Advice** が<span style="color:#855900"> **ブロック済み**</span> かつ **Detected: TRUE** になっていることが確認できます。
