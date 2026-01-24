@@ -42,7 +42,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 <i aria-hidden="true" class="fas fa-exclamation-circle" style="color:#7C5AED"></i> **警告:** エージェント名は必ず **shopping-assistant** にします。そうしないと、後のタスクで JupyterLab Notebook を実行する際に問題が発生します。誤った名前で作成した場合は、[**エージェントビルダー**] ページで名前を変更できます。
 
-1. [**説明 - オプション**] に `Agent that implements a shopping assistant` と入力します。
+1. [**説明 - オプション**] に `ショッピングアシスタントを実装するエージェント` と入力します。
 1. [**マルチエージェントコラボレーションを有効にする**] チェックボックスはオフのままにします。
 1. <span style="ssb_orange_oval">作成</span> をクリックします。
 1. [**エージェントビルダー**] ページにリダイレクトされます。
@@ -72,7 +72,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. [**エージェント向けの指示**] に次のテキストを入力します。
 
 ```plain
-You are an AI shopping assistant, and you respond to product related questions. Never provide lawn maintenance advice. Do not make assumptions or make up an answer. You are not good at math. So, use the MultiFunctionCalculatorTool tool provided to answer math questions. You ALWAYS reply politely and concisely, using ONLY the KNOWLEDGE BASE and the PriceLookup and the MultiFunctionCalculatorTool functions available in the ACTION_GROUP.
+あなたはAIショッピングアシスタントとして、商品に関する質問に回答します。芝生の手入れに関するアドバイスは絶対にしないでください。また、憶測や勝手な答えは避けてください。あなたは数学は苦手です。そのため、数学の質問には、提供されているACTION_GROUPで利用可能なMultiFunctionCalculatorToolツールを使用してください。商品の情報はKNOWLEDGE BASEを使用しますが、商品の価格についてはPriceLookup関数を使用して下さい。常に丁寧かつ簡潔に回答してください。
 ```
 
 まず、モデルに対して推測をしないように指示することで、ナレッジベースへの誘導を促しているのがわかります。次に、数学が苦手であると伝えることで、定義した関数を後のタスクで必ず使用するように導いています。
@@ -94,7 +94,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">ナレッジベースをテスト</span> をクリックします。
 1. 左側の [**設定**] セクションで、[**取得と応答生成**] を展開します。
 1. [**取得のみ: データソース**] をクリックします。
-1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `Hello, I am interested in your products. Who manufactures the products you sell?` というテキストを入力します。
+1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `こんにちは。貴社の商品に興味があります。貴社が販売している商品の製造元を教えてください。` というテキストを入力します。
 1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコンをクリックします。
 1. ナレッジベースのテキストチャンクのリストが返されるのが確認できます。
 1. ナレッジベースの回答の下部にある [**詳細**] をクリックすると、各チャンクの詳細が表示されます。
@@ -106,7 +106,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. [**モデルを選択**] ウィンドウの [**カテゴリ**] で、[**Anthropic**] を選択します。
 1. [**モデル**] で [**Claude 3 Haiku**] を選択します。
 1. <span style="ssb_orange_oval">適用</span> をクリックします。
-1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `Hello, I am interested in your products. Who manufactures the products you sell?` というテキストを入力します。
+1. [**テスト**] セクションで、テキストボックス (下部の「**プロンプトを記述**」と表示されたボックス) に `こんにちは。貴社の商品に興味があります。貴社が販売している商品の製造元を教えてください。` というテキストを入力します。
 1. プロンプトフィールドの右下にある [**メッセージを送信**] アイコンをクリックします。
 1. 今回は、**Claude 3 Haiku** LLM を使用して、ナレッジベースから返されたチャンクを基に、応答が再構成されたことがわかります。
 
@@ -119,7 +119,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. <span style="ssb_orange_oval">エージェントビルダーで編集</span> をクリックします。
 1. [**ナレッジベース**] セクションまでスクロールして、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">追加</span> をクリックします。
 1. [**ナレッジベースを選択**] で**shopping-kb** を選択します。
-1. [**エージェント向けのナレッジベースの指示**] に `Access the knowledge base when customers ask questions about product description, product rating, or available products.` と入力します。
+1. [**エージェント向けのナレッジベースの指示**] に `顧客が商品の説明、商品の評価、または入手可能な商品について質問したときに、ナレッジベースにアクセスします。` と入力します。
 1. <span style="ssb_orange_oval">追加</span> をクリックします。
 1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
 
@@ -157,7 +157,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. <span style="ssb_orange_oval">エージェントビルダーで編集</span> をクリックします。
 1. [**アクショングループ**] セクションまでスクロールして、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">追加</span> をクリックします。
 1. [**アクショングループ名を入力**] に `shopping-assistant-ag` と入力します。
-1. [**説明 - オプション**] に `Action group that implements basic product query functionality` と入力します。
+1. [**説明 - オプション**] に `基本的な商品クエリ機能を実装するアクショングループ` と入力します。
 1. OpenAPI 形式を使用する代わりに、[**関数の詳細で定義**] を使用して関数パラメータを定義します。
 1. [**アクショングループの呼び出し**] で [**既存の Lambda 関数を選択してください**] を選択します。
 1. [**Lambda 関数を選択**] で `ShoppingAssistantFunction` を選択します。
@@ -167,7 +167,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
    ```json
    {
        "name": "PriceLookup",
-       "description": "Useful when you need to look up product price. Supply either product id or product name",
+       "description": "商品の価格を調べるときに便利です。商品IDまたは商品名を入力してください。",
        "parameters": {
            "productId": {
                "description": "product identifier",
@@ -188,7 +188,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
    ```json
    {
        "name": "MultiFunctionCalculatorTool",
-       "description": "Useful when you need to add, subtract, multiply, or divide two numbers. To use the tool, you must provide both numbers and the operator.",
+       "description": "2つの数値を加算、減算、乗算、または除算する必要がある場合に便利です。このツールを使用するには、数値と演算子の両方を指定する必要があります。",
        "parameters": {
            "oper1": {
                "description": "first operand",
@@ -312,7 +312,7 @@ You are an AI shopping assistant, and you respond to product related questions. 
 
 1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">テスト</span> をクリックします。
 
-1. 画面右側の [**テストエージェント**] セクションで、「**ここにメッセージを入力**」と表示されたテキストボックスに `Hello, I am interested in your products. Who manufactures the products you sell?` というプロンプトを入力します。
+1. 画面右側の [**テストエージェント**] セクションで、「**ここにメッセージを入力**」と表示されたテキストボックスに `こんにちは。貴社の商品に興味があります。貴社が販売している商品の製造元を教えてください。` というプロンプトを入力します。
 
 1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">実行</span> をクリックします。
 
@@ -326,8 +326,8 @@ You are an AI shopping assistant, and you respond to product related questions. 
 1. [**後処理トレース**] タブで <span style="font-weight: bold">**トレース ステップ 4**</span> を展開します。
 1. ガードレールが適用されたことが確認できます。
 1. 上記と同じ手順を、次のような追加のプロンプトで繰り返し実行すると、アクショングループとガードレールを呼び出すことができます。
-   * `How much do they cost?` は、**PriceLookup** 関数をトリガーします。
-   * `How much will it cost to buy 2 string trimmers?` は、**MultiFunctionCalculatorTool** 関数をトリガーします。
+   * `「String Trimmer」の価格を教えてください。` は、**PriceLookup** 関数をトリガーします。
+   * `「String Trimmer」を2つ購入するといくらかかりますか?` は、**MultiFunctionCalculatorTool** 関数をトリガーします。
    * `Can I use a string trimmer to control weeds?` は、ガードレールをトリガーします。
 
 ### タスク 6.2: エージェントのバージョンとエイリアスを作成する
