@@ -37,7 +37,7 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 
 1. AWS マネジメントコンソール上部の検索バーで、`Amazon Bedrock` と検索してクリックします。
 1. 左側のナビゲーションペインの [**構築**] セクションで、[**エージェント**] をクリックします。
-1. <span style="ssb_orange_oval">エージェントを作成</span> をクリックします。
+1. <span style="ssb_orange_oval">**エージェントを作成**</span> をクリックします。
 1. [**名前**] フィールドの現在の名前を、`shopping-assistant` に置き換えます。
 
 <i aria-hidden="true" class="fas fa-exclamation-circle" style="color:#7C5AED"></i> **警告:** エージェント名は必ず **shopping-assistant** にします。そうしないと、後のタスクで JupyterLab Notebook を実行する際に問題が発生します。誤った名前で作成した場合は、[**エージェントビルダー**] ページで名前を変更できます。
