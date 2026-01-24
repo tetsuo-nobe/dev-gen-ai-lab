@@ -62,8 +62,8 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
 1. <span style="ssb_orange_oval">モデルを選択</span> をクリックします。
 1. [**モデルを選択**] ウィンドウの [**カテゴリ**] で、[**Anthropic**] を選択します。
 1. [**モデル**] で [**Claude 3 Haiku**] を選択します。
-1. <span style="ssb_orange_oval">適用</span> をクリックします。
-1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. <span style="ssb_orange_oval">[**適用**]</span> をクリックします。
+1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 ### タスク 1.4: エージェント向けの指示を設定する
 
