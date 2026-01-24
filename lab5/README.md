@@ -213,9 +213,9 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
    * `name` は `function` プロパティに使用されます。
    * `oper1`、`oper2`、`operator` の必須となる文字列パラメータがすべて定義され、Lambda 関数で使用できるようになっています。
 
-1. <span style="ssb_orange_oval">作成</span> をクリックします。
+1. <span style="ssb_orange_oval">[**作成**]</span> をクリックします。
 
-1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">保存</span> をクリックします。
+1. 画面の一番上までスクロールして <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">[**保存**]</span> をクリックします。
 
 <i aria-hidden="true" class="far fa-thumbs-up" style="color:#008296"></i> **タスク完了:** 料金検索と簡単な計算機能を提供する事前構築済みの Lambda 関数を、エージェントで利用できるよう設定できました。
 
