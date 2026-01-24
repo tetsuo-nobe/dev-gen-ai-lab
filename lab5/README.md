@@ -237,8 +237,8 @@ Amazon SageMaker Studio には、データの準備から ML モデルの構築�
       1. [**Lawn Maintenance Advice**] の横にあるチェックボックスをします。
       1. <span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックします。
       1. [**サンプルフレーズの追加 - オプション**] セクションには、ガードレールがどのようなトピックを拒否すべきかを知るのに役立つ、3 つのサンプルフレーズがあります。
-      1. **キャンセル** をクリックします。
-      1. **終了** をクリックします。
+      1. [**キャンセル**] をクリックします。
+      1. [**終了**] をクリックします。
    1. **ワードフィルター**: 冒涜的な表現やカスタム単語とフレーズが含まれています。ワードフィルターは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
    1. **機密情報フィルター**: PII タイプと正規表現パターンが含まれており、該当するタブをクリックすると確認できます。PII タイプと正規表現パターンは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
    1. **コンテキストグラウンディング**:コンテキストグラウンディングチェックは追加されていませんが、<span style="ssb_blue_oval; background-color:#ffffff; font-weight:bold; font-size:90%; color:#0872D3; position:relative; top:-1px; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;  border-radius:20px; border-color:#0872D3; border-style:solid; border-width:2px; margin-right:5px; white-space:nowrap">編集</span> をクリックして設定を確認できます。
